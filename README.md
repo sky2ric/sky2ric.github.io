@@ -1,2 +1,2 @@
-# sky2ric.github.io
-github_io
+# Smart Contract applications in Purchasing Real Estates
+Thanks for dropping by.
