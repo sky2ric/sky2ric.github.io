@@ -1,6 +1,10 @@
-# Welcome
+# Welcome a.k.a Abstract
 Here's the road less taken: 
 A new way of settling payments for housing estates. 
+
+This is an effort of trying to implement **smart contract** into the existing (traditional) process when dealing with **real-estates transaction**. In this project we will be using the process adopted by Hong Kong as an example. 
+
+
 
 # Content
 1. [Introduction To Problem](#c1)
@@ -24,5 +28,12 @@ A new way of settling payments for housing estates.
 <a name="c5"></a>
 # 5. Analysis
 
-# Disclaimer 
+* * *
+### Acknolegements
+This website serves as the purpose as a part of my presentation on my dissertation for my master degree. All pictures and other, if any, resources used in the making of this page are solely for the purApose of internal use for my dissertation presentation in this website. 
+
+### References
+1. [testing link](https://www.google.com)
+
+### Disclaimer 
 This is a dissertation submitted by Wong Tin Yan, class of 2017 MSc(CS) HKU.
