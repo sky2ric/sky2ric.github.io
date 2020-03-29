@@ -4,9 +4,9 @@ A new way of settling payments for housing estates.
 
 This is an effort of trying to implement **smart contract** into the existing (traditional) process when dealing with **real-estates transaction**. In this project we will be using the process adopted by the real-estate market in **Hong Kong** as an example. 
 
-<object align="middle">
-![HongKong](https://www.worldfinance.com/wp-content/uploads/2016/07/Hong-Kong.jpg)
-</object>
+
+![HongKong](https://www.worldfinance.com/wp-content/uploads/2016/07/Hong-Kong.jpg){: .center-image }
+
 
 # Content
 1. [Introduction To Problem](#c1)
