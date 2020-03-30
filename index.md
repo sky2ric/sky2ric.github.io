@@ -9,14 +9,20 @@ This is an effort of trying to implement **smart contract** into the existing (t
 
 
 # Content
-1. [Introduction To Problem](#c1)
+1. [Introduction To Project](#c1)
 2. [Existing Process](#c2)
 3. [Proposed Improvements](#c3)
 4. [Demos](#c4)
 5. [Analysis](#c5)
 
 <a name="c1"></a>
-# 1. Introduction To Problem
+# 1. Introduction To Project
+
+This project is an demo of showing the use of smart contract, which is a **digital form of traditional paper-signed contract**, can help us with doing transaction in a once-off, or a periodic manner, involving one or more parties. 
+
+The smart contract that we will be using is [ethereum](https://ethereum.org), and we will use the programming language [solidity](https://solidity.readthedocs.io) for demo purposes. 
+
+The use of smart contract will help us in ways 
 
 <a name="c2"></a>
 # 2. Existing Process
