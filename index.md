@@ -1,13 +1,14 @@
-# The Road Not Taken (Robert Frost, 1915)
->I shall be telling this with a sigh
+# The Road Not Taken
+(Robert Frost, 1915)
+>_I shall be telling this with a sigh_
 >
->Somewhere ages and ages hence:
+>_Somewhere ages and ages hence:_
 >
->Two roads diverged in a wood, and I—
+>_Two roads diverged in a wood, and I—_
 >
->I took the one less traveled by,
+>_I took the one less traveled by,_
 >
->And that has made all the difference.
+>_And that has made all the difference._
 
 ![road_less_travelled](https://mk0thestrivecoxtnap2.kinstacdn.com/wp-content/uploads/2018/08/The-Road-Less-Traveled.png){: .center-image}
 
