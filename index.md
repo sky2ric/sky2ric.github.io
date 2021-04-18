@@ -1,15 +1,12 @@
 # The Road Not Taken
 (Robert Frost, 1915)
->_I shall be telling this with a sigh_
->_Somewhere ages and ages hence:_
->
 >_Two roads diverged in a wood, and I—_
 >
 >_I took the one less traveled by,_
 >
 >_And that has made all the difference._
 
-![road_less_travelled](https://mk0thestrivecoxtnap2.kinstacdn.com/wp-content/uploads/2018/08/The-Road-Less-Traveled.png){: .center-image}
+![road_less_travelled](Slide3.jpg){: .center-image}
 
 # Welcome a.k.a Abstract
 
@@ -67,9 +64,10 @@ The smart contract that we will be using is on the [ethereum blockchain](https:/
 This website serves as the purpose as a part of my presentation on my dissertation for my master degree. All pictures and other, if any, resources used in the making of this page are solely for internal use only. 
 
 ### References
-1. Picture of Hong Kong - https://www.worldfinance.com/wp-content/uploads/2016/07/Hong-Kong.jpg
-2. Smart Door Lock - https://boggleup.com/products/wifi-bluetooth-silver-cipher-remote-smart-door-lock-cell-phone-key-password-card
-3. Raspberry Pi - https://en.wikipedia.org/wiki/Raspberry_Pi
+1. The road not taken - https://mk0thestrivecoxtnap2.kinstacdn.com/wp-content/uploads/2018/08/The-Road-Less-Traveled.png
+2. Picture of Hong Kong - https://www.worldfinance.com/wp-content/uploads/2016/07/Hong-Kong.jpg
+3. Smart Door Lock - https://boggleup.com/products/wifi-bluetooth-silver-cipher-remote-smart-door-lock-cell-phone-key-password-card
+4. Raspberry Pi - https://en.wikipedia.org/wiki/Raspberry_Pi
 
 ### Disclaimer 
 This is a dissertation submitted by Wong Tin Yan, class of 2017 MSc(CS) HKU.
