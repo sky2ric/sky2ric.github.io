@@ -1,6 +1,6 @@
 # Welcome a.k.a Abstract
 Here's the road less taken: 
-A new way of settling payments for housing estates. 
+A new way of settling payments for private housing properties. 
 
 This is an effort of trying to implement **smart contract** into the existing (traditional) process when dealing with **real-estates transaction**. In this project we will be using the process adopted by the real-estate market in **Hong Kong** as an example. 
 
@@ -20,9 +20,9 @@ This is an effort of trying to implement **smart contract** into the existing (t
 
 This project is an demo of showing the use of smart contract, which is a **digital form of traditional paper-signed contract**, can help us with doing transaction in a once-off, or a periodic manner, involving one or more parties. 
 
-The smart contract that we will be using is [ethereum](https://ethereum.org), and we will use the programming language [solidity](https://solidity.readthedocs.io) for demo purposes. 
+In the course of the demo, we will demonstrate the ability for blockchain to [decentralize](https://ethereum.org/en/dapps/), and the benefits (and also the drawbacks) of such implementation on **paying rents**. 
 
-The use of smart contract will help us in ways 
+The smart contract that we will be using is on the [ethereum blockchain](https://ethereum.org), and the underlying programming language is [solidity](https://solidity.readthedocs.io). At the same time, we will implement a front-end web client written in [Angular with Java](https://angular.io/) for tenant and landlord to manage their properties, a database to store such information [MySQL](https://www.mysql.com/), and a rudimentary door lock using a [Raspberry Pi](https://www.raspberrypi.org/)
 
 <a name="c2"></a>
 # 2. Existing Process
