@@ -1,7 +1,6 @@
 # The Road Not Taken
 (Robert Frost, 1915)
 >_I shall be telling this with a sigh_
->
 >_Somewhere ages and ages hence:_
 >
 >_Two roads diverged in a wood, and I—_
@@ -65,7 +64,7 @@ The smart contract that we will be using is on the [ethereum blockchain](https:/
 
 * * *
 ### Acknolegements
-This website serves as the purpose as a part of my presentation on my dissertation for my master degree. All pictures and other, if any, resources used in the making of this page are solely for the purApose of internal use for my dissertation presentation in this website. 
+This website serves as the purpose as a part of my presentation on my dissertation for my master degree. All pictures and other, if any, resources used in the making of this page are solely for internal use only. 
 
 ### References
 1. Picture of Hong Kong - https://www.worldfinance.com/wp-content/uploads/2016/07/Hong-Kong.jpg
