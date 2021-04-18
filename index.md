@@ -8,6 +8,7 @@
 >I took the one less traveled by,
 >
 >And that has made all the difference.
+
 ![road_less_travelled](https://mk0thestrivecoxtnap2.kinstacdn.com/wp-content/uploads/2018/08/The-Road-Less-Traveled.png){: .center-image}
 
 # Welcome a.k.a Abstract
