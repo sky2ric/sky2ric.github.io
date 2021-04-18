@@ -1,7 +1,7 @@
-# Welcome a.k.a Abstract
+# Here's the road less travelled:
+![road_less_travelled](https://mk0thestrivecoxtnap2.kinstacdn.com/wp-content/uploads/2018/08/The-Road-Less-Traveled.png){: .center-image}
 
-## Here's the road less taken: 
-> _Full automation for collecting rents and allowing access by blockchain._ 
+# Welcome a.k.a Abstract
 
 This is an effort of trying to implement **smart contract** into the existing (traditional) process when dealing with **real-estates transaction**. In this project we will be using the process adopted by the real-estate market in **Hong Kong** as an example. 
 
