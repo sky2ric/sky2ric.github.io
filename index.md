@@ -15,7 +15,7 @@ Our demo implementation will involve using **[Ethereum](https://ethereum.org) as
 Our demo implementation will also involve a smart door lock. This door lock will be able to **query the blockchain in realtime**, checking if the tenant has paid his rent, thus allowing or denying access. **A [Raspberry Pi](https://www.raspberrypi.org/) will be used to demonstrate this ability.**
 
 ![Raspberry Pi](rasp_doorlock.001.jpeg){: .center-image }
-Testing center text{: .align-center}
+Testing center text{: .center-text}
 
 # Content
 1. [Introduction To Project](#c1)
