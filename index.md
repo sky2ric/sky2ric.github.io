@@ -1,11 +1,11 @@
 # Welcome a.k.a Abstract
-Here's the road less taken: 
-A new way of settling payments for private housing properties. 
+Here's the road less taken:
+_A new way of settling rental (periodic) payments for private housing properties._
 
 This is an effort of trying to implement **smart contract** into the existing (traditional) process when dealing with **real-estates transaction**. In this project we will be using the process adopted by the real-estate market in **Hong Kong** as an example. 
 
 
-![HongKong](Slide1.jpeg){: .center-image }
+![HongKong](Slide1.jpeg){: .center-image caption="testing caption"}
 
 
 This project will involve a simple relationship between **tenants and landlords**. Landlords has to keep track on his tenants paying the rents on time, and allow (or deny) the access to his properties on a periodic basis. Our project will aim to **automate the entire process** with the use of smart contract, from keeping track of the rent, to allowing access (or denying access) on a real time query basis. 
@@ -28,9 +28,9 @@ Our demo implementation will also involve a smart door lock. This door lock will
 <a name="c1"></a>
 # 1. Introduction To Project
 
-This project is an demo of showing the use of smart contract, which is a **digital form of traditional paper-signed contract**, can help us with doing transaction in a once-off, or a periodic manner, involving one or more parties. 
+This project is an demo of showing the use of smart contract, which is a **digital form of traditional paper-signed contract** implemented on a blockchain, can help us to manage periodic rent payments from tenants to landlords, and in the meantime doing other programmatic logics, including allowing or denying the tenants' access into the premisis with **full automation and total decentralization.** More on decentralization later in [Blockchain 101](#c2). 
 
-In the course of the demo, we will demonstrate the ability for blockchain to [decentralize](https://ethereum.org/en/dapps/), and the benefits (and also the drawbacks) of such implementation on **paying rents**. 
+The blockchain network we chose for this application is [Ethereum](https://ethereum.org). Blockchain itself provides the ability to decentralize the control. And the automation is done by the Ethereum's properties of [Turing-Complete](https://ethereum.stackexchange.com/questions/2464/what-does-it-mean-that-ethereum-is-turing-complete).
 
 The smart contract that we will be using is on the [ethereum blockchain](https://ethereum.org), and the underlying programming language is [solidity](https://solidity.readthedocs.io). At the same time, we will implement a front-end web client written in [Angular with Java](https://angular.io/) for tenant and landlord to manage their properties, a database to store such information [MySQL](https://www.mysql.com/), and a rudimentary door lock using a [Raspberry Pi](https://www.raspberrypi.org/)
 
@@ -38,13 +38,16 @@ The smart contract that we will be using is on the [ethereum blockchain](https:/
 # 2. Blockchain 101
 
 <a name="c3"></a>
-# 3. Proposed Improvements
+# 3. Existing Process
 
 <a name="c4"></a>
-# 4. Demos
+# 4. Proposed Technical Architecture
 
 <a name="c5"></a>
-# 5. Analysis
+# 5. Demos
+
+<a name="c6"></a>
+# 6. Analysis
 
 * * *
 ### Acknolegements
