@@ -30,7 +30,9 @@ Our demo implementation will also involve a smart door lock. This door lock will
 
 This project is an demo of showing the use of smart contract, which is a **digital form of traditional paper-signed contract** implemented on a blockchain, can help us to manage periodic rent payments from tenants to landlords, and in the meantime doing other programmatic logics, including allowing or denying the tenants' access into the premisis with **full automation and total decentralization.** More on decentralization later in [Blockchain 101](#c2). 
 
-The blockchain network we chose for this application is [Ethereum](https://ethereum.org). Blockchain itself provides the ability to decentralize the control. And the automation is done by the Ethereum's properties of [Turing-Complete](https://ethereum.stackexchange.com/questions/2464/what-does-it-mean-that-ethereum-is-turing-complete).
+The blockchain network we chose for this application is [Ethereum](https://ethereum.org). Blockchain itself provides the ability to **decentralize the control**. And the automation is done by the Ethereum's properties of being **[Turing-Complete]**(https://ethereum.stackexchange.com/questions/2464/what-does-it-mean-that-ethereum-is-turing-complete), i.e. you can write programs (contracts) that can (for the most part) solve any reasonable computational problem.
+
+![Ethereum](Slide3.jpg){: .center-image caption="testing caption"}
 
 The smart contract that we will be using is on the [ethereum blockchain](https://ethereum.org), and the underlying programming language is [solidity](https://solidity.readthedocs.io). At the same time, we will implement a front-end web client written in [Angular with Java](https://angular.io/) for tenant and landlord to manage their properties, a database to store such information [MySQL](https://www.mysql.com/), and a rudimentary door lock using a [Raspberry Pi](https://www.raspberrypi.org/)
 
