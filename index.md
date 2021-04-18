@@ -1,12 +1,11 @@
 # The Road Not Taken
 (Robert Frost, 1915)
->_Two roads diverged in a wood, and I—_
+>..._Two roads diverged in a wood, and I—_
 >
 >_I took the one less traveled by,_
 >
 >_And that has made all the difference._
-
-![road_less_travelled](Slide3.jpg){: .center-image}
+![road_less_travelled](Slide4.jpg){: .center-image}
 
 # Welcome a.k.a Abstract
 
