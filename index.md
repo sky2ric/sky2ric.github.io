@@ -1,4 +1,9 @@
-# Here's the road less travelled:
+# The road not taken (R. Frost, 1915)
+>I shall be telling this with a sigh
+>Somewhere ages and ages hence:
+>Two roads diverged in a wood, and I—
+>I took the one less traveled by,
+>And that has made all the difference.
 ![road_less_travelled](https://mk0thestrivecoxtnap2.kinstacdn.com/wp-content/uploads/2018/08/The-Road-Less-Traveled.png){: .center-image}
 
 # Welcome a.k.a Abstract
