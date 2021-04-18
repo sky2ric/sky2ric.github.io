@@ -4,7 +4,7 @@ A new way of settling payments for private housing properties.
 
 This is an effort of trying to implement **smart contract** into the existing (traditional) process when dealing with **real-estates transaction**. In this project we will be using the process adopted by the real-estate market in **Hong Kong** as an example. 
 
-![HongKong](https://www.worldfinance.com/wp-content/uploads/2016/07/Hong-Kong.jpg){: .center-image }
+![HongKong](Hong-Kong.jpeg){: .center-image }
 
 This project will involve a simple relationship between **tenants and landlords**. Landlords has to keep track on his tenants paying the rents on time, and allow (or deny) the access to his properties on a periodic basis. Our project will aim to **automate the entire process** with the use of smart contract, from keeping track of the rent, to allowing access (or denying access) on a real time query basis. 
 
@@ -47,7 +47,9 @@ The smart contract that we will be using is on the [ethereum blockchain](https:/
 This website serves as the purpose as a part of my presentation on my dissertation for my master degree. All pictures and other, if any, resources used in the making of this page are solely for the purApose of internal use for my dissertation presentation in this website. 
 
 ### References
-1. [testing link](https://www.google.com)
+1. Picture of Hong Kong - https://www.worldfinance.com/wp-content/uploads/2016/07/Hong-Kong.jpg
+2. Smart Door Lock - https://boggleup.com/products/wifi-bluetooth-silver-cipher-remote-smart-door-lock-cell-phone-key-password-card
+3. Raspberry Pi - https://en.wikipedia.org/wiki/Raspberry_Pi
 
 ### Disclaimer 
 This is a dissertation submitted by Wong Tin Yan, class of 2017 MSc(CS) HKU.
