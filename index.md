@@ -1,7 +1,7 @@
 # Welcome a.k.a Abstract
 
-# # Here's the road less taken: 
-# # _Full automation for collecting rents and allowing access by blockchain._ 
+## Here's the road less taken: 
+> _Full automation for collecting rents and allowing access by blockchain._ 
 
 This is an effort of trying to implement **smart contract** into the existing (traditional) process when dealing with **real-estates transaction**. In this project we will be using the process adopted by the real-estate market in **Hong Kong** as an example. 
 
