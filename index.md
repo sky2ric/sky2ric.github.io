@@ -59,13 +59,32 @@ A [smart contract](https://en.wikipedia.org/wiki/Smart_contract) is a computer p
 
 ![Ethereum](Slide3.jpg){: .center-image}
 
-One of the key properties of our blockchain is the ability to decentralize. That is - the ability not to store data in a single location (centralized), but **store multiple copies of the same data in multiple locations.** Whenever a new block is added to the blockchain, every computer on the network updates its blockchain to reflect the change. By spreading that information across a network, rather than storing it in one central database, blockchain becomes more difficult to tamper with. **We will use this ability to eliminate the disputes against payments histories and records.**
+One of the key properties of our blockchain is the ability to [decentralize](https://www.investopedia.com/terms/b/blockchain.asp#decentralization). That is - the ability not to store data in a single location (centralized), but **store multiple copies of the same data in multiple locations.** Whenever a new block is added to the blockchain, every computer on the network updates its blockchain to reflect the change. By spreading that information across a network, rather than storing it in one central database, blockchain becomes more difficult to tamper with. **We will use this ability to eliminate the disputes against payments histories and records.**
 
 We will also use this as a chance to **implement automation for access control.** All the payment data stored in the Ethereum blockchain are publicly available. A door lock will query the agreed upon contract and retrieve the payment record. Automated access control will thus be implemented through the response from the blockchain.
 
 <a name="c3"></a>
 # 3. Existing process VS Automated process
 
+## Contract creation
+
+An existing contract creation involves a tenant and a landlord signing a legal document involving some general terms for leasing period, monthly rent, and the landlord's bank account for tenant depositing the rent. 
+
+The automated process will still require some legal documents containing the same information. The difference is to establish an automated payment address, i.e. landlord's public key address, for tenant depositing the rent as ETH. 
+
+![contract_creation](Slide7.jpg){: .center-image}
+
+## Regular payment
+
+blah blah blah
+
+![contract_regularpayment](Slide8.jpg){: .center-image}
+
+## Contract termination
+
+blah blah blah
+
+![contract_termination](Slide9.jpg){: .center-image}
 
 
 <a name="c4"></a>
