@@ -68,24 +68,31 @@ We will also use this as a chance to **implement automation for access control.*
 
 ## Contract creation
 
-An existing contract creation involves a tenant and a landlord signing a legal document involving some general terms for leasing period, monthly rent, and the landlord's bank account for tenant depositing the rent. 
+A typical contract process creation involves a tenant and a landlord signing a legal document involving some general terms for leasing period, monthly rent, and the landlord's bank account for tenant depositing the rent. 
 
-The automated process will still require some legal documents containing the same information. The difference is to establish an automated payment address, i.e. landlord's public key address, for tenant depositing the rent as ETH. 
+The automated process will still require some legal documents containing the same information. The difference is to establish an automated payment address, i.e. landlord's public key address, for tenant depositing the rent as ETH. This information will be stored in the blockchain for regular payment use. 
 
 ![contract_creation](Slide7.jpg){: .center-image}
 
 ## Regular payment
 
-blah blah blah
+A typical regular payment involves tenant setting up a standing instruction in his bank, instructing the bank to transfer the rent to his landlord's bank account regularly. After the initial payment is confirmed complete (or maybe the deposit is paid as well), the landlord will give the tenant his key (physical access) to the property agreed upon in the contract.
+
+However if there is a dispute in payment (e.g. tenant claiming rent is paid, while landlord is claiming it's not been received), much tedious process or arguments will be needed. Possibly the bank(s) involved will have to step into the discussion to clarify things, involving 4 different parties. Also, if the rent is not fulfilled for a particular period, the physical access is not immediately revoked, but rather need to be claimed by physical action that might involve governmental agencies (e.g. the police). 
+
+The automated process will handle the receipt of payment, and transfer of payment in a single contract published in the blockchain. Every step is well recorded and cannot be altered. This will eliminate the possible dispute in payment trasnfer. After the payment is sucessful, it will grant access to the door lock connected to the contract. This will completeley automate the physical access control. Also, since the information recorded in the blockchain is public, the physical access control will not be overridden unrightfully by either the tenant or the landlord. 
 
 ![contract_regularpayment](Slide8.jpg){: .center-image}
 
 ## Contract termination
 
-blah blah blah
+A typical contract termination involves one party issues a one-month notice to the other party notifying the termination. After the completion of the final payment and return of the deposit, the key (physical access) to the property will be taken back, thus vacating the property.
+
+The automated process will handle the return of the deposit at the final date automatically on the descretion of the landlord. After the deposit has been settled, the physical access will be automatically revoked. 
+
+However, since vacating the property involves a lot of human interaction, physical logistics of relocation, and possibly emotional or psychological support, a zero-tolerance in flexibility is highly not flavourable to most tenants or landlords. For this, the automated termination in contract should leave room for flexibility. 
 
 ![contract_termination](Slide9.jpg){: .center-image}
-
 
 <a name="c4"></a>
 # 4. Proposed Technical Architecture
