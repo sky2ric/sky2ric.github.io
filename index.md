@@ -101,20 +101,27 @@ There will be two physical entities involved.
 1. Landlord(s) with his property(ies)
 2. Tenant(s)
 
-Both physical entities will have access to a **front-end client**, able to manage their payments and contracts. The front-end client will have connection to our **API server** which will handle the backend computing. Behind the API server, there is a **MySQL database** storing all the credentials and contracts. Our Ethereum contract will be deployed on our **local blockchain**. 
-
-The tenant will have access to a physical door lock, emulated by a **Raspberry Pi** running on the local network. The Pi will have access to the local blockchain, thus able to query the status of each payment. 
+Those two parties will have access to the followings.
+1. Landlords will have access to a front-end client (webpage) managing his properties. 
+2. Tenants will have access to a front-end client (webpage) managing his rent payments. 
+3. Tenants will also have access to a physical door lock. 
 
 ![technical_architecture](Slide7.jpg){: .center-image}
 
+Behind the scene, the front-end client will have connection to our **API server** which will handle the backend computing. Behind the API server, there is a **MySQL database** storing all the credentials and contracts. Our Ethereum contract will be deployed on our **local blockchain**. The local blockchain is run by [Ganache](https://www.trufflesuite.com/docs/ganache/overview).
+
 ![stack](Slide8.jpg){: .center-image}
+
+The tenant will have access to a physical door lock, emulated by a **Raspberry Pi** running on the local network. The Pi will have access to the local blockchain, thus able to query the status of each payment. 
+
 
 <a name="c5"></a>
 # 5. Demos
-This part is to be completed towards when the UI and business logics are finalized.
+This part is to be completed, when the UI and business logics are finalized.
 
 <a name="c6"></a>
 # 6. Analysis
+
 
 
 * * *
