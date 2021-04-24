@@ -97,8 +97,17 @@ However, since vacating the property involves a lot of human interaction, physic
 <a name="c4"></a>
 # 4. Proposed Technical Architecture
 
+There will be two physical entities involved. 
+1. Landlord(s) with his property(ies)
+2. Tenant(s)
+
+Both physical entities will have access to a **front-end client**, able to manage their payments and contracts. The front-end client will have connection to our **API server** which will handle the backend computing. Behind the API server, there is a **MySQL database** storing all the credentials and contracts. Our Ethereum contract will be deployed on our **local blockchain**. 
+
+The tenant will have access to a physical door lock, emulated by a **Raspberry Pi** running on the local network. The Pi will have access to the local blockchain, thus able to query the status of each payment. 
+
 ![technical_architecture](Slide7.jpg){: .center-image}
 
+![stack](Slide8.jpg){: .center-image}
 
 <a name="c5"></a>
 # 5. Demos
