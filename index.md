@@ -72,7 +72,7 @@ A typical contract process creation involves a tenant and a landlord signing a l
 
 The automated process will still require some legal documents containing the same information. The difference is to **establish an automated payment address**, i.e. landlord's public key address, for tenant depositing the rent as ETH. This information will be stored in the blockchain for regular payment use. 
 
-![contract_creation](Slide7.jpg){: .center-image}
+![contract_creation](Slide9.jpg){: .center-image}
 
 ## Regular payment
 
@@ -117,11 +117,11 @@ The tenant will have access to a physical door lock, emulated by a **Raspberry P
 
 <a name="c5"></a>
 # 5. Demos
-This part is to be completed, when the UI and business logics are finalized.
+This part is intentionally left blank. When the UI and business logics are finalized, demos will be available.
 
 <a name="c6"></a>
 # 6. Analysis
-
+This part is intentionally left blank. When the UI and business logics are finalized, analysis on final product will be available.
 
 
 * * *
