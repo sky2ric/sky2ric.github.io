@@ -6,7 +6,7 @@
 >
 >_And that has made all the difference._
 
-![road_less_travelled](Slide4.jpg){: .center-image}
+![road_less_travelled](Slide5.jpeg){: .center-image}
 
 # Welcome a.k.a Abstract
 
@@ -40,7 +40,7 @@ This project is an demo of showing the use of smart contract, which is a **digit
 
 The blockchain network we chose for this application is [Ethereum](https://ethereum.org). Blockchain itself provides the ability to **decentralize the control**. And the automation is done by the Ethereum's properties of being **[Turing-Complete](https://ethereum.stackexchange.com/questions/2464/what-does-it-mean-that-ethereum-is-turing-complete)**, i.e. you can write programs (contracts) that can (for the most part) solve any reasonable computational problem.
 
-![ProjectConcept](Slide5.jpeg){: .center-image}
+![ProjectConcept](Slide6.jpeg){: .center-image}
 
 The smart contract that we will be using is on the [ethereum blockchain](https://ethereum.org), and the underlying programming language is [solidity](https://solidity.readthedocs.io). At the same time, we will implement a front-end web client written in [Angular with Java](https://angular.io/) for tenant and landlord to manage their properties, a database to store such information [MySQL](https://www.mysql.com/), and a rudimentary door lock using a [Raspberry Pi](https://www.raspberrypi.org/)
 
@@ -51,7 +51,7 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Blockchain), **a blockcha
 
 By the use of cryptographic algorithms and agreement protocols, **a blockchain is resistant to modification of its data**. This is because once recorded, the data in any given block cannot be altered retroactively without alteration of all subsequent blocks. Many useful properties of blockchain therefore can be derived.
 
-![Blockchain](Slide6.jpeg){: .center-image}
+![Blockchain](Slide4.jpeg){: .center-image}
 
 There currently exists many blockchains on decentralized networks. Of the many, **[Ethereum](https://en.wikipedia.org/wiki/Ethereum) is the second-largest cryptocurrency by market capitalization**, after Bitcoin. Also, **ethereum is the most actively used blockchain**. The reason we chose Ethereum instead of Bitcoin is to leverage its smart contract functionality to implement our project. 
 
@@ -72,7 +72,7 @@ A typical contract process creation involves a tenant and a landlord signing a l
 
 The automated process will still require some legal documents containing the same information. The difference is to **establish an automated payment address**, i.e. landlord's public key address, for tenant **paying the rent as ETH**. This information will be stored in the blockchain for regular payment use. 
 
-![contract_creation](Slide9.jpeg){: .center-image}
+![contract_creation](Slide7.jpeg){: .center-image}
 
 ## Regular payment
 
@@ -106,11 +106,11 @@ Those two parties will have access to the followings.
 2. Tenants will have access to a front-end client (webpage) managing his rent payments. 
 3. Tenants will also have access to a physical door lock. 
 
-![technical_architecture](Slide7.jpeg){: .center-image}
+![technical_architecture](Slide10.jpeg){: .center-image}
 
 Behind the scene, the front-end client will have connection to our **API server** which will handle the backend computing. Behind the API server, there is a **MySQL database** storing all the credentials and contracts. Our Ethereum contract will be deployed on our **local blockchain**. The local blockchain is run by [Ganache](https://www.trufflesuite.com/docs/ganache/overview).
 
-![stack](Slide8.jpeg){: .center-image}
+![stack](Slide11.jpeg){: .center-image}
 
 The tenant will have access to a physical door lock, emulated by a **Raspberry Pi** running on the local network. The Pi will have access to the local blockchain, thus able to query the status of each payment. 
 
@@ -130,7 +130,7 @@ This website serves as the purpose as a part of my presentation on my dissertati
 
 ### References
 1. The road not taken - https://mk0thestrivecoxtnap2.kinstacdn.com/wp-content/uploads/2018/08/The-Road-Less-Traveled.png
-2. Picture of Hong Kong - https://www.worldfinance.com/wp-content/uploads/2016/07/Hong-Kong.jpg
+2. Picture of Hong Kong - https://www.worldfinance.com/wp-content/uploads/2016/07/Hong-Kong.
 3. Smart Door Lock - https://boggleup.com/products/wifi-bluetooth-silver-cipher-remote-smart-door-lock-cell-phone-key-password-card
 4. Raspberry Pi - https://en.wikipedia.org/wiki/Raspberry_Pi
 
