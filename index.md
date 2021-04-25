@@ -123,6 +123,11 @@ This part is intentionally left blank. When the UI and business logics are final
 # 6. Analysis
 This part is intentionally left blank. When the UI and business logics are finalized, analysis on final product will be available.
 
+![underconstructuon](https://cdn.dopl3r.com//media/memes_files/sorry-bro-this-meme-is-still-under-construction-5w59c.jpg){: .center-image}
+
+
+
+
 
 * * *
 ### Acknolegements
