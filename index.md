@@ -40,7 +40,7 @@ This project is an demo of showing the use of smart contract, which is a **digit
 
 The blockchain network we chose for this application is [Ethereum](https://ethereum.org). Blockchain itself provides the ability to **decentralize the control**. And the automation is done by the Ethereum's properties of being **[Turing-Complete](https://ethereum.stackexchange.com/questions/2464/what-does-it-mean-that-ethereum-is-turing-complete)**, i.e. you can write programs (contracts) that can (for the most part) solve any reasonable computational problem.
 
-![ProjectConcept](Slide5.jpg){: .center-image}
+![ProjectConcept](Slide5.jpeg){: .center-image}
 
 The smart contract that we will be using is on the [ethereum blockchain](https://ethereum.org), and the underlying programming language is [solidity](https://solidity.readthedocs.io). At the same time, we will implement a front-end web client written in [Angular with Java](https://angular.io/) for tenant and landlord to manage their properties, a database to store such information [MySQL](https://www.mysql.com/), and a rudimentary door lock using a [Raspberry Pi](https://www.raspberrypi.org/)
 
@@ -51,13 +51,13 @@ According to [Wikipedia](https://en.wikipedia.org/wiki/Blockchain), **a blockcha
 
 By the use of cryptographic algorithms and agreement protocols, **a blockchain is resistant to modification of its data**. This is because once recorded, the data in any given block cannot be altered retroactively without alteration of all subsequent blocks. Many useful properties of blockchain therefore can be derived.
 
-![Blockchain](Slide6.jpg){: .center-image}
+![Blockchain](Slide6.jpeg){: .center-image}
 
 There currently exists many blockchains on decentralized networks. Of the many, **[Ethereum](https://en.wikipedia.org/wiki/Ethereum) is the second-largest cryptocurrency by market capitalization**, after Bitcoin. Also, **ethereum is the most actively used blockchain**. The reason we chose Ethereum instead of Bitcoin is to leverage its smart contract functionality to implement our project. 
 
 A [smart contract](https://en.wikipedia.org/wiki/Smart_contract) is a computer program or a transaction protocol which is intended to **automatically execute, control or document legally relevant events and actions** according to the terms of a contract or an agreement. This will be the key of the project's focus - automatically receive rent (as ETH) and allowing or denying one's access into any agreed upon properties.
 
-![Ethereum](Slide3.jpg){: .center-image}
+![Ethereum](Slide3.jpeg){: .center-image}
 
 One of the key properties of our blockchain is the ability to [decentralize](https://www.investopedia.com/terms/b/blockchain.asp#decentralization). That is - the ability not to store data in a single location (centralized), but **store multiple copies of the same data in multiple locations.** Whenever a new block is added to the blockchain, every computer on the network updates its blockchain to reflect the change. By spreading that information across a network, rather than storing it in one central database, blockchain becomes more difficult to tamper with. **We will use this ability to eliminate the disputes against payments histories and records.**
 
@@ -70,9 +70,9 @@ We will also use this as a chance to **implement automation for access control.*
 
 A typical contract process creation involves a tenant and a landlord signing a legal document involving some general terms for leasing period, monthly rent, and the landlord's bank account for tenant depositing the rent. 
 
-The automated process will still require some legal documents containing the same information. The difference is to **establish an automated payment address**, i.e. landlord's public key address, for tenant depositing the rent as ETH. This information will be stored in the blockchain for regular payment use. 
+The automated process will still require some legal documents containing the same information. The difference is to **establish an automated payment address**, i.e. landlord's public key address, for tenant **paying the rent as ETH**. This information will be stored in the blockchain for regular payment use. 
 
-![contract_creation](Slide9.jpg){: .center-image}
+![contract_creation](Slide9.jpeg){: .center-image}
 
 ## Regular payment
 
@@ -82,7 +82,7 @@ However if there is a dispute in payment (e.g. tenant claiming rent is paid, whi
 
 The **automated process will handle the receipt of payment**, and transfer of payment in a single contract published in the blockchain. Every step is well recorded and cannot be altered. This will eliminate the possible dispute in payment trasnfer. After the payment is sucessful, it will grant access to the door lock connected to the contract. This will completeley **automate the physical access control**. Also, since the information recorded in the blockchain is public, the physical access control will not be overridden unrightfully by either the tenant or the landlord. 
 
-![contract_regularpayment](Slide8.jpg){: .center-image}
+![contract_regularpayment](Slide8.jpeg){: .center-image}
 
 ## Contract termination
 
@@ -92,7 +92,7 @@ The **automated process will handle the return of the deposit on the end of leas
 
 However, since vacating the property involves a lot of human interaction, physical logistics of relocation, and possibly emotional or psychological support, a zero-tolerance in flexibility is highly not flavourable to most tenants or landlords. For this, the automated termination in contract should leave room for flexibility. More on the discussion in [Analysis](#c6).  
 
-![contract_termination](Slide9.jpg){: .center-image}
+![contract_termination](Slide9.jpeg){: .center-image}
 
 <a name="c4"></a>
 # 4. Proposed Technical Architecture
@@ -106,11 +106,11 @@ Those two parties will have access to the followings.
 2. Tenants will have access to a front-end client (webpage) managing his rent payments. 
 3. Tenants will also have access to a physical door lock. 
 
-![technical_architecture](Slide7.jpg){: .center-image}
+![technical_architecture](Slide7.jpeg){: .center-image}
 
 Behind the scene, the front-end client will have connection to our **API server** which will handle the backend computing. Behind the API server, there is a **MySQL database** storing all the credentials and contracts. Our Ethereum contract will be deployed on our **local blockchain**. The local blockchain is run by [Ganache](https://www.trufflesuite.com/docs/ganache/overview).
 
-![stack](Slide8.jpg){: .center-image}
+![stack](Slide8.jpeg){: .center-image}
 
 The tenant will have access to a physical door lock, emulated by a **Raspberry Pi** running on the local network. The Pi will have access to the local blockchain, thus able to query the status of each payment. 
 
