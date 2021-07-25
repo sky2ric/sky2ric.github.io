@@ -144,7 +144,7 @@ For example, if one has maliciously obtained the contract address of a particula
 ## Cost and Benefit
 The benefits that of using a smart contract compared to a conventional contract has already been fully demonstrated. Achieving such advantages of being immutable and decentralised comes at a cost, unsurprisingly, compared to signing a conventional contract. 
 
-Such cost can be broken down into two key parts. One is the cost of acquiring Ether, one is the cost of the gas required to deploy the contract. With all cost calculated, assuming a 24-month rental period, an approximate 2% fee will iccur on top of the total 24-month payment sum. 
+Such cost can be broken down into two key parts. One is the cost of deploying the initial contract, one is the cost of doing regular payment. With both cost calculated, assuming a 24-month rental period, an approximate $53 USD will iccur based on the current gas price, and Ether exchange rate to USD as of now. 
 
 ![costandbenefit](costandbenefit.jpg){: .center-image}
 
