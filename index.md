@@ -117,13 +117,32 @@ The tenant will have access to a physical door lock, emulated by a **Raspberry P
 
 <a name="c5"></a>
 # 5. Demos
+
 This part is intentionally left blank. When the UI and business logics are finalized, demos will be available.
 
 <a name="c6"></a>
 # 6. Analysis
-This part is intentionally left blank. When the UI and business logics are finalized, analysis on final product will be available.
 
-![underconstructuon](https://cdn.dopl3r.com//media/memes_files/sorry-bro-this-meme-is-still-under-construction-5w59c.jpg){: .center-image}
+## Vulnerablities
+The Ethereum blockchain and contracts deployed into the blockchain itself, has established a reputation that it is immutable and decentralised, mathematically proven and built into its protocol. Hence **it can be safely assumed there is no vulnerabilities within the protocol of the blockchain in a mathematical or cryptographic context**. Even if there are, it should be a topic for another discussion.
+
+However in the proposed tenant and landlord application context, how the other systems outside the blockchain, e.g. door lock, interacts with the contract, and how the contract has been proposed and coded, has room for discussion for security and privacy related issues. In the context of our proposed infrastructure, it will still suffer from:
+
+1. Classic physical vulnerabilities
+2. Man-in-the-middle attack on blockchain RPC query 
+3. Man-in-the-middle attack on NTP 
+4. Local time forgery on tenant client or tenant smart door lock
+
+## Privacy 
+The main net Ethereum blockchain is publicly accessible. With that said, **anyone who has network access to any of the node hosting the main net Ethereum blockchain will be able to interact with any deployed contracts they want**. All it is required to interact with any deployed contracts is the contract address, and the function call identifier. 
+
+For example, if one has maliciously obtained the contract address of a particular property on lease, and since the function call identifier is the same given the same contract, the malicious third party is able to retrieve all the information that can be provided by the getting functions coded. The malicious third party is able to check all of the payment history of a particular contract, and as well as the tenant’s public key’s address, landlord’s public key’s address and the monthly rent agreed. 
+
+## Cost and Benefit
+The benefits that of using a smart contract compared to a conventional contract has already been fully demonstrated. Achieving such advantages of being immutable and decentralised comes at a cost, unsurprisingly, compared to signing a conventional contract. 
+
+Such cost can be broken down into two key parts. One is the cost of acquiring Ether, one is the cost of the gas required to deploy the contract.
+
 
 
 
