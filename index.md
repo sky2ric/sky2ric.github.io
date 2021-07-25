@@ -133,6 +133,9 @@ However in the proposed tenant and landlord application context, how the other s
 3. Man-in-the-middle attack on NTP 
 4. Local time forgery on tenant client or tenant smart door lock
 
+![maninthemiddle](maninthemiddle.jpg){: .center-image}
+
+
 ## Privacy 
 The main net Ethereum blockchain is publicly accessible. With that said, **anyone who has network access to any of the node hosting the main net Ethereum blockchain will be able to interact with any deployed contracts they want**. All it is required to interact with any deployed contracts is the contract address, and the function call identifier. 
 
