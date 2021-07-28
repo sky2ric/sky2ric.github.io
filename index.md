@@ -118,7 +118,17 @@ The tenant will have access to a physical door lock, emulated by a **Raspberry P
 <a name="c5"></a>
 # 5. Demos
 
-This part is intentionally left blank. When the UI and business logics are finalized, demos will be available.
+**A landlord will use the demo web-app to manage his properties.** The web-app can shows existing contracts associated with properties. The web-app both makes connection to an API server, or directly to the blockchain checking a particular contract's status.
+![demo1](demo1.jpg){: .center-image}
+
+If a landlord decided to invite a tenant to sign a contract with him, he can do so with the web-app. After the invitation is complete, the API server will send a email to the invited tenant. The email will contains login information for the tenant. If the tenant does not want to use our web-app to sign the contract, he or she can do so with personal preference with the data labelled in the email. **This demonstrate the idea of decentralized blockchain.**
+![demo2](demo2.jpg){: .center-image}
+
+If the tenant chose to login via our web-app, he will be prompted with a pending invitation page. **If he accepts the proposed rent, he can proceed to do the payment with Metamask plugin.** The Metamask plugin will help to sign the data with the private key, and then publish the data to the blockchain. This is the initial contract deployment.
+![demo3](demo3.jpg){: .center-image}
+
+After the tenant accepted and deployed the contract, he can use the web-app to make regular payments. Similar to the contract deployment, the web-app will allow the tenant to make payment via Metamask plugin. **The only difference is, the transaction will be transferring certain amount of Ether worth of rent into the contract. The contract will then remit the Ether to the landlord. **
+![demo4](demo4.jpg){: .center-image}
 
 <a name="c6"></a>
 # 6. Analysis
@@ -126,7 +136,7 @@ This part is intentionally left blank. When the UI and business logics are final
 ## Vulnerablities
 The Ethereum blockchain and contracts deployed into the blockchain itself, has established a reputation that it is immutable and decentralised, mathematically proven and built into its protocol. Hence **it can be safely assumed there is no vulnerabilities within the protocol of the blockchain in a mathematical or cryptographic context**. Even if there are, it should be a topic for another discussion.
 
-However in the proposed tenant and landlord application context, how the other systems outside the blockchain, e.g. door lock, interacts with the contract, and how the contract has been proposed and coded, has room for discussion for security and privacy related issues. In the context of our proposed infrastructure, it will still suffer from:
+However in the proposed tenant and landlord application context, how **the other systems outside the blockchain, e.g. door lock, interacts with the contract, and how the contract has been proposed and coded, has room for discussion for security and privacy related issues**. In the context of our proposed infrastructure, it will still suffer from:
 
 1. Classic physical vulnerabilities
 2. Man-in-the-middle attack on blockchain RPC query 
@@ -144,7 +154,7 @@ For example, if one has maliciously obtained the contract address of a particula
 ## Cost and Benefit
 The benefits that of using a smart contract compared to a conventional contract has already been fully demonstrated. Achieving such advantages of being immutable and decentralised comes at a cost, unsurprisingly, compared to signing a conventional contract. 
 
-Such cost can be broken down into two key parts. One is the cost of deploying the initial contract, one is the cost of doing regular payment. With both cost calculated, assuming a 24-month rental period, an approximate $53 USD will iccur based on the current gas price, and Ether exchange rate to USD as of now. 
+Such cost can be broken down into two key parts. One is the cost of deploying the initial contract, one is the cost of doing regular payment. **With both cost calculated, assuming a 24-month rental period, an approximate $53 USD will iccur based on the current gas price, and Ether exchange rate to USD as of now.** 
 
 ![costandbenefit](costandbenefit.jpg){: .center-image}
 
