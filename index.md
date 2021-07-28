@@ -124,8 +124,10 @@ The tenant will have access to a physical door lock, emulated by a **Raspberry P
 If a landlord decided to invite a tenant to sign a contract with him, he can do so with the web-app. After the invitation is complete, the API server will send a email to the invited tenant. The email will contains login information for the tenant. If the tenant does not want to use our web-app to sign the contract, he or she can do so with personal preference with the data labelled in the email. **This demonstrate the idea of decentralized blockchain.**
 ![demo2](demo02.jpg){: .center-image}
 
+
 If the tenant chose to login via our web-app, he will be prompted with a pending invitation page. **If he accepts the proposed rent, he can proceed to do the payment with Metamask plugin.** The Metamask plugin will help to sign the data with the private key, and then publish the data to the blockchain. This is the initial contract deployment.
 ![demo3](demo03.jpg){: .center-image}
+
 
 After the tenant accepted and deployed the contract, he can use the web-app to make regular payments. Similar to the contract deployment, the web-app will allow the tenant to make payment via Metamask plugin. **The only difference is, the transaction will be transferring certain amount of Ether worth of rent into the contract. The contract will then remit the Ether to the landlord. **
 ![demo4](demo04.jpg){: .center-image}
