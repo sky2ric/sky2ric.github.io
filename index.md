@@ -32,6 +32,7 @@ Our demo implementation will also involve a smart door lock. This door lock will
 4. [Proposed Improvements](#c4)
 5. [Demos](#c5)
 6. [Analysis](#c6)
+7. [Conclusion](#c7)
 
 <a name="c1"></a>
 # 1. Introduction To Project
@@ -121,7 +122,7 @@ The tenant will have access to a physical door lock, emulated by a **Raspberry P
 **A landlord will use the demo web-app to manage his properties.** The web-app can shows existing contracts associated with properties. The web-app both makes connection to an API server, or directly to the blockchain checking a particular contract's status.
 ![demo1](demo01.jpg){: .center-image}
 
-If a landlord decided to invite a tenant to sign a contract with him, he can do so with the web-app. After the invitation is complete, the API server will send a email to the invited tenant. The email will contains login information for the tenant. If the tenant does not want to use our web-app to sign the contract, he or she can do so with personal preference with the data labelled in the email. **This demonstrate the idea of decentralized blockchain.**
+If a landlord decided to invite a tenant to sign a contract with him, he can do so with the web-app. After the invitation is complete, the API server will send a email to the invited tenant. The email will contains login information for the tenant. If the tenant does not want to use our web-app to sign the contract, he or she can do so with personal preference with the data labelled in the email. **This demonstrates the idea of a decentralized blockchain.**
 ![demo2](demo02.jpg){: .center-image}
 
 
@@ -129,7 +130,7 @@ If the tenant chose to login via our web-app, he will be prompted with a pending
 ![demo3](demo03.jpg){: .center-image}
 
 
-After the tenant accepted and deployed the contract, he can use the web-app to make regular payments. Similar to the contract deployment, the web-app will allow the tenant to make payment via Metamask plugin. **The only difference is, the transaction will be transferring certain amount of Ether worth of rent into the contract. The contract will then remit the Ether to the landlord. **
+After the tenant accepted and deployed the contract, he can use the web-app to make regular payments. Similar to the contract deployment, the web-app will allow the tenant to make payment via Metamask plugin. **The only difference is, the transaction will be transferring certain amount of Ether worth of rent into the contract. The contract will then remit the Ether to the landlord.**
 ![demo4](demo04.jpg){: .center-image}
 
 <a name="c6"></a>
@@ -160,7 +161,14 @@ Such cost can be broken down into two key parts. One is the cost of deploying th
 
 ![costandbenefit](costandbenefit.jpg){: .center-image}
 
+<a name="c7"></a>
+# 7. Conclusion
 
+**We have demonstrated that it is possible to use based smart contract to manage periodic rent payments and automate access control, with a decentralized and immutable blockchain such as Ethereum.** The demonstration includes a real-life scenario based use-case consisting of a tenant and a landlord. The demonstration shows the two parties can use a web-application to handle the transaction with full automation. 
+
+However this implementation comes at a cost, which is the contract deployment cost. In a 24-month rental period, an additional fee of approximately $53 USD will add on top of the rental payments. Also, this demo implementation will suffer from classic vulnerabilities such as physically brute force destroying of the lock, or the man-in-the-middle attack on network layer. 
+
+With that said, this demonstration has fulfilled its aim in showing a business-oriented application is possible by the use of smart-contracts. 
 
 * * *
 ### Acknolegements
