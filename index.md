@@ -166,9 +166,12 @@ Such cost can be broken down into two key parts. One is the cost of deploying th
 
 **We have demonstrated that it is possible to use based smart contract to manage periodic rent payments and automate access control, with a decentralized and immutable blockchain such as Ethereum.** The demonstration includes a real-life scenario based use-case consisting of a tenant and a landlord. The demonstration shows the two parties can use a web-application to handle the transaction with full automation. 
 
-However this implementation comes at a cost, which is the contract deployment cost. In a 24-month rental period, an additional fee of approximately $53 USD will add on top of the rental payments. Also, this demo implementation will suffer from classic vulnerabilities such as physically brute force destroying of the lock, or the man-in-the-middle attack on network layer. 
+However this implementation comes at a cost, which is the contract deployment cost. In a 24-month rental period, an additional fee of approximately $53 USD will add on top of the rental payments.  
 
 With that said, this demonstration has fulfilled its aim in showing a business-oriented application is possible by the use of smart-contracts. 
+
+
+
 
 * * *
 ### Acknolegements
